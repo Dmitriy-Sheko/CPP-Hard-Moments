@@ -16,16 +16,16 @@ void printWords(IT it, IT end)
 
 void Task_1()
 {
-    std::vector<std::string> v{ "Один", "Два", "Три", "Пять", "Один", "Пять", "Шесть", "Два", "Два", "Один", "Семь", "Девять" };
-    std::cout << "Вывод вектора:" << std::endl;
+    std::vector<std::string> v{ "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Four", "Eight", "Nine", "One", "Four" };
+    std::cout << "Vector output:" << std::endl;
     printWords(v.begin(), v.end());
 
     std::list<std::string> l(v.begin(), v.end());
-    std::cout << "\nВывод листа:" << std::endl;
+    std::cout << "\List output:" << std::endl;
     printWords(l.begin(), l.end());
 
     std::deque<std::string> d(v.begin(), v.end());
-    std::cout << "\nВывод деки:" << std::endl;
+    std::cout << "\Deck output:" << std::endl;
     printWords(d.begin(), d.end());
 }
 
