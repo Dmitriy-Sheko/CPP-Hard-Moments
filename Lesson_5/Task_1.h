@@ -28,4 +28,3 @@ void Task_1()
     std::cout << "\Deck output:" << std::endl;
     printWords(d.begin(), d.end());
 }
-
